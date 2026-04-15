@@ -1,0 +1,80 @@
+header
+{
+justify-content:space-between;
+background-color:#367588;
+color:white;
+padding-left:30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;  /* Vertically centers logo and links */
+background-image:url(Amanda_logo.png);
+background-size:50px;
+background-repeat:no-repeat;
+background-position:left;
+/*padding: 10px 20px;*/
+
+  /*background-color: #333;*/
+}
+
+.nav-links {
+  display: flex; /* Makes the list items horizontal */
+  list-style: none; /* Removes bullet points */
+margin-left: 450px; /* Space between logo and first link */
+font-size:50px;}
+
+.nav-links li {
+  margin-right: 20px; /* Space between each link */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+
+
+
+body{
+	background-color:	#141414;
+	font-family:'Arial' helvetica, San-serif;
+	text-align:center;
+	margin:0;
+	padding:0;
+	color:white;
+	
+	
+}
+li{
+list-style-type:none;
+   
+}
+h1{
+	text-align:center;
+	padding-left:50px;
+	margin-top:50px;
+}
+
+
+img {
+  width: 500px;
+  height: flex;
+  float:right;
+  margin-right:245px;
+  margin-left:450px;
+  margin-top:180px;
+}
+p {
+  margin-top: 50px;  
+  margin-left: 200px;
+  font-size:20px;
+}
+footer {
+  position: fixed; /* Takes the footer out of the normal document flow */
+  bottom: 0; /* Positions it at the bottom edge of the viewport */
+  left: 0;
+   color: white;
